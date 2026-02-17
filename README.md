@@ -46,6 +46,8 @@ git clone https://github.com/gabriellesca/todo-list.git
 2. Abra o arquivo `index.html` no navegador.
 
 ---
+📸 Preview
+<img width="475" height="322" alt="image" src="https://github.com/user-attachments/assets/d9a145b3-df85-4bb2-9da3-a436804b4b5d" />
 
 ## 🎯 Objetivo do projeto
 
@@ -55,3 +57,4 @@ Projeto desenvolvido para reforçar fundamentos de JavaScript e construção de 
 
 Desenvolvido por Gabrielle Simone  
 Estudante de Engenharia de Software | Front-end em formação
+
