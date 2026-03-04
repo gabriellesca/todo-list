@@ -1,62 +1,63 @@
-# ✅ To-Do List em JavaScript
-
-Aplicação de lista de tarefas desenvolvida com HTML, CSS e JavaScript puro.
-
-Projeto criado com foco em praticar manipulação do DOM, lógica em JavaScript e persistência de dados no navegador usando localStorage.
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## B) `todo-list`
+✅ Muito bom: README completo e deploy publicado. :contentReference[oaicite:5]{index=5}  
+🔧 Melhorias:
+- colocar “Live Demo” logo no início (já tem)
+- acrescentar “Arquitetura” (como a tarefa é renderizada / salva)
+- adicionar “Testes manuais” (mini checklist) para aproximar de QA também
 
-- HTML5  
-- CSS3  
+### README novo
+```md
+# ✅ To-Do List (JavaScript + LocalStorage)
+
+Aplicação de lista de tarefas feita com **HTML, CSS e JavaScript (Vanilla)**, com persistência no navegador usando **LocalStorage**.
+
+🔗 **Live Demo:** https://gabriellesca.github.io/todo-list/
+
+---
+
+## ✨ Funcionalidades
+- Adicionar e remover tarefas
+- Marcar como concluída
+- Persistência automática (LocalStorage)
+- Interface simples e responsiva
+
+---
+
+## 🧰 Tecnologias
+- HTML5
+- CSS3
 - JavaScript (ES6)
 
 ---
 
-## 💡 Funcionalidades
-
-- Adicionar tarefas  
-- Remover tarefas  
-- Marcar tarefas como concluídas  
-- Salvar tarefas automaticamente (localStorage)  
-- Interface limpa e responsiva  
+## 🧠 O que eu pratiquei
+- DOM: criação dinâmica de elementos
+- Eventos (`click`, `submit`)
+- Serialização com `JSON.stringify` / `JSON.parse`
+- Controle de estado da aplicação (lista de tarefas)
 
 ---
 
-## 🧠 Conceitos aplicados
-
-- QuerySelector / QuerySelectorAll  
-- Event Listeners  
-- Criação dinâmica de elementos  
-- Funções reutilizáveis  
-- Manipulação de classes  
-- localStorage + JSON  
-- Controle de estado da aplicação  
+## 🗂️ Estrutura do projeto
+- `index.html` → estrutura da página
+- `styles.css` → estilos
+- `script.js` → regras da aplicação (criar, concluir, remover, salvar)
 
 ---
 
-## 📂 Como executar o projeto
+## ✅ Checklist de testes (manual)
+- [ ] Criar tarefa com texto válido
+- [ ] Impedir tarefa vazia
+- [ ] Marcar/desmarcar como concluída
+- [ ] Remover tarefa
+- [ ] Recarregar página e manter estado (LocalStorage)
 
-1. Clone o repositório:
+---
 
+## ▶️ Como executar
+```bash
 git clone https://github.com/gabriellesca/todo-list.git
-
-
-2. Abra o arquivo `index.html` no navegador.
-
----
-📸 Preview
-
-<img width="475" height="322" alt="image" src="https://github.com/user-attachments/assets/d9a145b3-df85-4bb2-9da3-a436804b4b5d" />
-
-## 🎯 Objetivo do projeto
-
-Projeto desenvolvido para reforçar fundamentos de JavaScript e construção de aplicações front-end básicas.
-
----
-
-Desenvolvido por Gabrielle Simone  
-Estudante de Engenharia de Software | Front-end em formação
-
-
+cd todo-list
