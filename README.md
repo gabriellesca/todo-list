@@ -1,15 +1,4 @@
 
----
-
-## B) `todo-list`
-✅ Muito bom: README completo e deploy publicado. :contentReference[oaicite:5]{index=5}  
-🔧 Melhorias:
-- colocar “Live Demo” logo no início (já tem)
-- acrescentar “Arquitetura” (como a tarefa é renderizada / salva)
-- adicionar “Testes manuais” (mini checklist) para aproximar de QA também
-
-### README novo
-```md
 # ✅ To-Do List (JavaScript + LocalStorage)
 
 Aplicação de lista de tarefas feita com **HTML, CSS e JavaScript (Vanilla)**, com persistência no navegador usando **LocalStorage**.
@@ -61,3 +50,4 @@ Aplicação de lista de tarefas feita com **HTML, CSS e JavaScript (Vanilla)**, 
 ```bash
 git clone https://github.com/gabriellesca/todo-list.git
 cd todo-list
+
